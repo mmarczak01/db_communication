@@ -1,0 +1,6 @@
+**User Manual**
+- In order to load the data into the database you need to provide the path to the csv files 
+
+**Functionality of create_station_db**
+- The script checks if the database already exists, if not a new database is created with the relevant data 
+- The script checks if any of the tables is not empty, if it is then only data to this table is added
